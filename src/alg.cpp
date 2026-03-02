@@ -10,7 +10,6 @@ uint64_t factorial(uint8_t n) {
     for (uint8_t i = 1; i <= n; i++) {
       result *= i;
     }
-    
     return result;
   }
 }
